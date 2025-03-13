@@ -28,11 +28,11 @@ Cette application est conçue pour lire un fichier Excel contenant des informati
 # Installation
 
     # 1. Clonez le dépôt :
-      git clone https://github.com/votre-utilisateur/votre-projet.git
-      cd votre-projet
+      git clone https://github.com/Remi96/data_saver.git
+      cd data_saver
 
     # 2. Installez les dépendances :
-      sudo apt install zenity (si c'est linux desktop)
+      sudo apt install zenity # (si c'est linux desktop)
       npm install
 
     # 3. Configurez les variables d'environnement :
