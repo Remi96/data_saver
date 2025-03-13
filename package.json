@@ -1,0 +1,24 @@
+{
+  "name": "data_saver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:integration": "jest integration.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cli-progress": "^3.12.0",
+    "dotenv": "^16.4.7",
+    "path": "^0.12.7",
+    "pg": "^8.14.0",
+    "read-excel-file": "^5.8.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
