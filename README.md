@@ -27,16 +27,16 @@ Cette application est conçue pour lire un fichier Excel contenant des informati
 
 # Installation
 
-  1. Clonez le dépôt :
-     git clone https://github.com/votre-utilisateur/votre-projet.git
-     cd votre-projet
+    # 1. Clonez le dépôt :
+      git clone https://github.com/votre-utilisateur/votre-projet.git
+      cd votre-projet
 
-  2. Installez les dépendances :
-     sudo apt install zenity (si c'est linux desktop)
-     npm install
+    # 2. Installez les dépendances :
+      sudo apt install zenity (si c'est linux desktop)
+      npm install
 
-  3. Configurez les variables d'environnement :
-     Créez un fichier .env à la racine du projet et ajoutez les informations de connexion à PostgreSQL :
+    # 3. Configurez les variables d'environnement :
+     # Créez un fichier .env à la racine du projet et ajoutez les informations de connexion à PostgreSQL :
        DB_HOST=votre_host
        DB_USER=votre_utilisateur
        DB_PASSWORD=votre_mot_de_passe
@@ -45,28 +45,28 @@ Cette application est conçue pour lire un fichier Excel contenant des informati
 
 # Utilisation :
 
-  1. Exécutez l'application :
-       node index.js (petite quantité de données)
-       node --max-old-space-size=4096 index.js (grande quantité de données)
-  2. Suivez les instructions pour sélectionner le fichier Excel et démarrer l'importation.
+    # 1. Exécutez l'application :
+       node index.js # (petite quantité de données)
+       node --max-old-space-size=4096 index.js # (grande quantité de données)
+    # 2. Suivez les instructions pour sélectionner le fichier Excel et démarrer l'importation.
 
 # Tests
 
   1.  Tests unitaires
 
-    Les tests unitaires vérifient que la fonction normalizeDate fonctionne correctement.
+    # Les tests unitaires vérifient que la fonction normalizeDate fonctionne correctement.
 
-    Exécutez les tests unitaires :
-    npm test
+    # Exécutez les tests unitaires :
+      npm test
 
   2.  Tests d'intégration
 
-    Les tests d'intégration vérifient que l'application fonctionne correctement dans son ensemble.
+    # Les tests d'intégration vérifient que l'application fonctionne correctement dans son ensemble.
 
-    Configurez une base de données de test dans .env.test.
+    # Configurez une base de données de test dans .env.test.
 
-    Exécutez les tests d'intégration :
-    npm run test:integration
+    # Exécutez les tests d'intégration :
+      npm run test:integration
 
 # Licence
 
