@@ -52,7 +52,7 @@ Cette application est conçue pour lire un fichier Excel contenant des informati
 
 # Exemple
 
-![Exemple](https://github.com/votre-utilisateur/votre-depot/raw/main/chemin/vers/votre-image.png](https://github.com/Remi96/data_saver/blob/main/sample.png)
+![Exemple](https://github.com/Remi96/data_saver/blob/main/sample.png)
 
 # Tests
 
